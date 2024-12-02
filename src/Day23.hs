@@ -1,6 +1,6 @@
 module Day23 where
 
-import Paths_aoc2023 (getDataFileName)
+import Paths_aoc2024 (getDataFileName)
 
 day23 :: IO ()
 day23 = do

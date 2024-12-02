@@ -1,9 +1,9 @@
-with-compiler: ghc-9.4.7
+with-compiler: ghc-9.10.1
 
 packages: .
 
-package aoc2023
-  -- This causes cabal to build modules (of local packages, which is aoc2023 in our case) on all cores,
+package aoc2024
+  -- This causes cabal to build modules (of local packages, which is aoc2024 in our case) on all cores,
   -- instead of just one, therefore reducing our build times.
   ghc-options: -j
 
